@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Status Chip</title>
+    <style>
+        .status-chip {
+            display: inline-block;
+            padding: 8px 12px;
+            border-radius: 16px;
+            font-size: 14px;
+            color: white;
+            margin: 4px;
+        }
+
+        .completed {
+            background-color: #4CAF50;
+        }
+
+        .in-progress {
+            background-color: #FFC107;
+        }
+
+        .cancelled {
+            background-color: #F44336;
+        }
+    </style>
+</head>
+<body>
+    <div class="status-chip completed">Completed</div>
+    <div class="status-chip in-progress">In Progress</div>
+    <div class="status-chip cancelled">Cancelled</div>
+</body>
+</html>
